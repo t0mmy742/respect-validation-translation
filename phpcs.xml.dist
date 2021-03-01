@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd"
+         name="Coding standard">
+    <description>Coding standard</description>
+
+    <file>bin</file>
+    <file>src</file>
+
+    <arg name="colors"/>
+    <arg value="sp"/>
+
+    <rule ref="PSR12"/>
+    <rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+    <rule ref="Generic.PHP.RequireStrictTypes"/>
+</ruleset>

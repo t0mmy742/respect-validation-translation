@@ -1,0 +1,6 @@
+/.idea/
+/vendor/
+/composer.lock
+/phpcs.xml
+/phpstan.neon
+/respect-validation-translation.pot
