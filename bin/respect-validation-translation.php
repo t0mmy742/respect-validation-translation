@@ -13,4 +13,4 @@ if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
     exit;
 }
 
-(new Extractor())->extract();
+(new Extractor())->extract($_SERVER['argv'][1] ?? null);

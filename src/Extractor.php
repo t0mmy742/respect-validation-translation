@@ -11,21 +11,24 @@ use RuntimeException;
 use function addcslashes;
 use function basename;
 use function date;
+use function file_exists;
 use function file_put_contents;
 use function implode;
 use function is_dir;
+use function mkdir;
 
 class Extractor
 {
     private const RESPECT_VALIDATION_EXCEPTIONS_DIR = __DIR__ . '/../vendor/respect/validation/library/Exceptions';
-    private const OUTPUT_PATH = __DIR__ . '/../respect-validation-translation.pot';
+    private const OUTPUT_FILENAME = 'respect-validation-translation';
+    private const DEFAULT_OUTPUT_PATH = __DIR__ . '/../' . self::OUTPUT_FILENAME . '.pot';
 
     /** @var string[] */
     private array $inputFiles = [];
     /** @var array<string, array>{string, int} */
     private array $data = [];
 
-    public function extract(): void
+    public function extract(?string $locale = null): void
     {
         $this->scanRespectValidationExceptionsDirectory();
 
@@ -39,7 +42,7 @@ class Extractor
             }
         }
 
-        $this->saveToTemplateFile();
+        $this->saveToTemplateFile($this->getOutputPath($locale));
     }
 
     private function scanRespectValidationExceptionsDirectory(): void
@@ -55,7 +58,7 @@ class Extractor
         }
     }
 
-    private function saveToTemplateFile(): void
+    private function saveToTemplateFile(string $outputPath): void
     {
         $output = [];
         $output[] = '# Translation for Respect/Validation PHP library';
@@ -86,6 +89,22 @@ class Extractor
 
         $dataOutput = implode("\n", $output);
 
-        file_put_contents(self::OUTPUT_PATH, $dataOutput);
+        file_put_contents($outputPath, $dataOutput);
+    }
+
+    private function getOutputPath(?string $locale): string
+    {
+        if ($locale === null) {
+            $outputPath = self::DEFAULT_OUTPUT_PATH;
+        } else {
+            $outputDirectory = __DIR__ . '/locale/' . $locale . '/LC_MESSAGES/';
+            if (!file_exists($outputDirectory)) {
+                mkdir($outputDirectory, recursive: true);
+            }
+
+            $outputPath = $outputDirectory . self::OUTPUT_FILENAME . '.po';
+        }
+
+        return $outputPath;
     }
 }
