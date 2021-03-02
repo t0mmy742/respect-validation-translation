@@ -72,9 +72,11 @@ class Extractor
         $output[] = '';
 
         foreach ($this->data as $message => $filenamesLines) {
+            $outputReference = '#:';
             foreach ($filenamesLines as $filenameLine) {
-                $output[] = '#: ' . $filenameLine[0] . ':' . $filenameLine[1];
+                $outputReference .= ' ' . $filenameLine[0] . ':' . $filenameLine[1];
             }
+            $output[] = $outputReference;
 
             $message = addcslashes($message, '"\\');
             $output[] = 'msgid "' . $message . '"';
