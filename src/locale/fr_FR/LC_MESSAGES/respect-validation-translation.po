@@ -1,0 +1,1437 @@
+# Translation for Respect/Validation PHP library
+#
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-03-02 21:56+0100\n"
+"PO-Revision-Date: 2021-03-02 22:29+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"Last-Translator: Thomas LE BERRE <29512640+t0mmy742@users.noreply.github.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: AllOfException.php:27 GroupedValidationException.php:32
+#: KeySetException.php:30
+msgid "All of the required rules must pass for {{name}}"
+msgstr "Toutes les conditions doivent être valides pour {{name}}"
+
+#: AllOfException.php:28 GroupedValidationException.php:33
+#: KeySetException.php:31
+msgid "These rules must pass for {{name}}"
+msgstr "Ces conditions doivent être valides pour {{name}}"
+
+#: AllOfException.php:31 KeySetException.php:35 NoneOfException.php:27
+msgid "None of these rules must pass for {{name}}"
+msgstr ""
+
+#: AllOfException.php:32 GroupedValidationException.php:37
+#: KeySetException.php:36
+msgid "These rules must not pass for {{name}}"
+msgstr ""
+
+#: AlnumException.php:27
+msgid "{{name}} must contain only letters (a-z) and digits (0-9)"
+msgstr "{{name}} ne doit contenir que des lettres (a-z) et des chiffres (0-9)"
+
+#: AlnumException.php:28
+msgid "{{name}} must contain only letters (a-z), digits (0-9) and {{additionalChars}}"
+msgstr ""
+
+#: AlnumException.php:31
+msgid "{{name}} must not contain letters (a-z) or digits (0-9)"
+msgstr ""
+
+#: AlnumException.php:32
+msgid "{{name}} must not contain letters (a-z), digits (0-9) or {{additionalChars}}"
+msgstr ""
+
+#: AlphaException.php:27
+msgid "{{name}} must contain only letters (a-z)"
+msgstr "{{name}} ne doit contenir que des lettres (a-z)"
+
+#: AlphaException.php:28
+msgid "{{name}} must contain only letters (a-z) and {{additionalChars}}"
+msgstr ""
+
+#: AlphaException.php:31
+msgid "{{name}} must not contain letters (a-z)"
+msgstr ""
+
+#: AlphaException.php:32
+msgid "{{name}} must not contain letters (a-z) or {{additionalChars}}"
+msgstr ""
+
+#: AlwaysInvalidException.php:30 AlwaysValidException.php:31
+msgid "{{name}} is always invalid"
+msgstr ""
+
+#: AlwaysInvalidException.php:31
+msgid "{{name}} is not valid"
+msgstr ""
+
+#: AlwaysInvalidException.php:34 AlwaysValidException.php:28
+msgid "{{name}} is always valid"
+msgstr ""
+
+#: AlwaysInvalidException.php:35
+msgid "{{name}} is valid"
+msgstr "{{name}} est valide"
+
+#: AnyOfException.php:27
+msgid "At least one of these rules must pass for {{name}}"
+msgstr ""
+
+#: AnyOfException.php:30
+msgid "At least one of these rules must not pass for {{name}}"
+msgstr ""
+
+#: ArrayTypeException.php:29
+msgid "{{name}} must be of type array"
+msgstr ""
+
+#: ArrayTypeException.php:32
+msgid "{{name}} must not be of type array"
+msgstr ""
+
+#: ArrayValException.php:28
+msgid "{{name}} must be an array value"
+msgstr ""
+
+#: ArrayValException.php:31
+msgid "{{name}} must not be an array value"
+msgstr ""
+
+#: AttributeException.php:33
+msgid "Attribute {{name}} must be present"
+msgstr "{{name}} doit être présent"
+
+#: AttributeException.php:34
+msgid "Attribute {{name}} must be valid"
+msgstr "{{name}} doit être valide"
+
+#: AttributeException.php:37
+msgid "Attribute {{name}} must not be present"
+msgstr ""
+
+#: AttributeException.php:38
+msgid "Attribute {{name}} must not validate"
+msgstr ""
+
+#: Base64Exception.php:28
+msgid "{{name}} must be Base64-encoded"
+msgstr ""
+
+#: Base64Exception.php:31
+msgid "{{name}} must not be Base64-encoded"
+msgstr ""
+
+#: BaseException.php:28
+msgid "{{name}} must be a number in the base {{base}}"
+msgstr ""
+
+#: BaseException.php:31
+msgid "{{name}} must not be a number in the base {{base}}"
+msgstr ""
+
+#: BetweenException.php:27
+msgid "{{name}} must be between {{minValue}} and {{maxValue}}"
+msgstr ""
+
+#: BetweenException.php:30
+msgid "{{name}} must not be between {{minValue}} and {{maxValue}}"
+msgstr ""
+
+#: BoolTypeException.php:29
+msgid "{{name}} must be of type boolean"
+msgstr "{{name}} doit être un boolean"
+
+#: BoolTypeException.php:32
+msgid "{{name}} must not be of type boolean"
+msgstr ""
+
+#: BoolValException.php:28
+msgid "{{name}} must be a boolean value"
+msgstr ""
+
+#: BoolValException.php:31
+msgid "{{name}} must not be a boolean value"
+msgstr ""
+
+#: BsnException.php:28
+msgid "{{name}} must be a BSN"
+msgstr ""
+
+#: BsnException.php:31
+msgid "{{name}} must not be a BSN"
+msgstr ""
+
+#: CallableTypeException.php:28
+msgid "{{name}} must be callable"
+msgstr ""
+
+#: CallableTypeException.php:31
+msgid "{{name}} must not be callable"
+msgstr ""
+
+#: CallException.php:27
+msgid "{{input}} must be valid when executed with {{callable}}"
+msgstr ""
+
+#: CallException.php:30
+msgid "{{input}} must not be valid when executed with {{callable}}"
+msgstr ""
+
+#: CharsetException.php:28
+msgid "{{name}} must be in the {{charset}} charset"
+msgstr ""
+
+#: CharsetException.php:31
+msgid "{{name}} must not be in the {{charset}} charset"
+msgstr ""
+
+#: CnhException.php:28
+msgid "{{name}} must be a valid CNH number"
+msgstr ""
+
+#: CnhException.php:31
+msgid "{{name}} must not be a valid CNH number"
+msgstr ""
+
+#: CnpjException.php:28
+msgid "{{name}} must be a valid CNPJ number"
+msgstr ""
+
+#: CnpjException.php:31
+msgid "{{name}} must not be a valid CNPJ number"
+msgstr ""
+
+#: ConsonantException.php:28
+msgid "{{name}} must contain only consonants"
+msgstr ""
+
+#: ConsonantException.php:29
+msgid "{{name}} must contain only consonants and {{additionalChars}}"
+msgstr ""
+
+#: ConsonantException.php:32
+msgid "{{name}} must not contain consonants"
+msgstr ""
+
+#: ConsonantException.php:33
+msgid "{{name}} must not contain consonants or {{additionalChars}}"
+msgstr ""
+
+#: ContainsAnyException.php:26
+msgid "{{name}} must contain at least one of the values {{needles}}"
+msgstr ""
+
+#: ContainsAnyException.php:29
+msgid "{{name}} must not contain any of the values {{needles}}"
+msgstr ""
+
+#: ContainsException.php:28
+msgid "{{name}} must contain the value {{containsValue}}"
+msgstr ""
+
+#: ContainsException.php:31
+msgid "{{name}} must not contain the value {{containsValue}}"
+msgstr ""
+
+#: ControlException.php:28
+msgid "{{name}} must contain only control characters"
+msgstr ""
+
+#: ControlException.php:29
+msgid "{{name}} must contain only control characters and {{additionalChars}}"
+msgstr ""
+
+#: ControlException.php:32
+msgid "{{name}} must not contain control characters"
+msgstr ""
+
+#: ControlException.php:33
+msgid "{{name}} must not contain control characters or {{additionalChars}}"
+msgstr ""
+
+#: CountableException.php:28
+msgid "{{name}} must be countable"
+msgstr ""
+
+#: CountableException.php:31
+msgid "{{name}} must not be countable"
+msgstr ""
+
+#: CountryCodeException.php:28
+msgid "{{name}} must be a valid country"
+msgstr ""
+
+#: CountryCodeException.php:31
+msgid "{{name}} must not be a valid country"
+msgstr ""
+
+#: CpfException.php:28
+msgid "{{name}} must be a valid CPF number"
+msgstr ""
+
+#: CpfException.php:31
+msgid "{{name}} must not be a valid CPF number"
+msgstr ""
+
+#: CreditCardException.php:32
+msgid "{{name}} must be a valid Credit Card number"
+msgstr ""
+
+#: CreditCardException.php:33
+msgid "{{name}} must be a valid {{brand}} Credit Card number"
+msgstr ""
+
+#: CreditCardException.php:36
+msgid "{{name}} must not be a valid Credit Card number"
+msgstr ""
+
+#: CreditCardException.php:37
+msgid "{{name}} must not be a valid {{brand}} Credit Card number"
+msgstr ""
+
+#: CurrencyCodeException.php:28
+msgid "{{name}} must be a valid currency"
+msgstr ""
+
+#: CurrencyCodeException.php:31
+msgid "{{name}} must not be a valid currency"
+msgstr ""
+
+#: DateException.php:27
+msgid "{{name}} must be a valid date in the format {{sample}}"
+msgstr ""
+
+#: DateException.php:30
+msgid "{{name}} must not be a valid date in the format {{sample}}"
+msgstr ""
+
+#: DateTimeException.php:29
+msgid "{{name}} must be a valid date/time"
+msgstr ""
+
+#: DateTimeException.php:30
+msgid "{{name}} must be a valid date/time in the format {{sample}}"
+msgstr ""
+
+#: DateTimeException.php:33
+msgid "{{name}} must not be a valid date/time"
+msgstr ""
+
+#: DateTimeException.php:34
+msgid "{{name}} must not be a valid date/time in the format {{sample}}"
+msgstr ""
+
+#: DecimalException.php:26
+msgid "{{name}} must have {{decimals}} decimals"
+msgstr ""
+
+#: DecimalException.php:29
+msgid "{{name}} must not have {{decimals}} decimals"
+msgstr ""
+
+#: DigitException.php:27
+msgid "{{name}} must contain only digits (0-9)"
+msgstr ""
+
+#: DigitException.php:28
+msgid "{{name}} must contain only digits (0-9) and {{additionalChars}}"
+msgstr ""
+
+#: DigitException.php:31
+msgid "{{name}} must not contain digits (0-9)"
+msgstr ""
+
+#: DigitException.php:32
+msgid "{{name}} must not contain digits (0-9) and {{additionalChars}}"
+msgstr ""
+
+#: DirectoryException.php:27
+msgid "{{name}} must be a directory"
+msgstr ""
+
+#: DirectoryException.php:30
+msgid "{{name}} must not be a directory"
+msgstr ""
+
+#: DomainException.php:27
+msgid "{{name}} must be a valid domain"
+msgstr ""
+
+#: DomainException.php:30
+msgid "{{name}} must not be a valid domain"
+msgstr ""
+
+#: EachException.php:28
+msgid "Each item in {{name}} must be valid"
+msgstr ""
+
+#: EachException.php:31
+msgid "Each item in {{name}} must not validate"
+msgstr ""
+
+#: EmailException.php:32
+msgid "{{name}} must be valid email"
+msgstr "{{name}} doit être une adresse email valide"
+
+#: EmailException.php:35
+msgid "{{name}} must not be an email"
+msgstr ""
+
+#: EndsWithException.php:28
+msgid "{{name}} must end with {{endValue}}"
+msgstr ""
+
+#: EndsWithException.php:31
+msgid "{{name}} must not end with {{endValue}}"
+msgstr ""
+
+#: EqualsException.php:28
+msgid "{{name}} must equal {{compareTo}}"
+msgstr ""
+
+#: EqualsException.php:31
+msgid "{{name}} must not equal {{compareTo}}"
+msgstr ""
+
+#: EquivalentException.php:26
+msgid "{{name}} must be equivalent to {{compareTo}}"
+msgstr ""
+
+#: EquivalentException.php:29
+msgid "{{name}} must not be equivalent to {{compareTo}}"
+msgstr ""
+
+#: EvenException.php:30
+msgid "{{name}} must be an even number"
+msgstr ""
+
+#: EvenException.php:33
+msgid "{{name}} must not be an even number"
+msgstr ""
+
+#: ExecutableException.php:27
+msgid "{{name}} must be an executable file"
+msgstr ""
+
+#: ExecutableException.php:30
+msgid "{{name}} must not be an executable file"
+msgstr ""
+
+#: ExistsException.php:27
+msgid "{{name}} must exists"
+msgstr "{{name}} doit exister"
+
+#: ExistsException.php:30
+msgid "{{name}} must not exists"
+msgstr ""
+
+#: ExtensionException.php:29
+msgid "{{name}} must have {{extension}} extension"
+msgstr ""
+
+#: ExtensionException.php:32
+msgid "{{name}} must not have {{extension}} extension"
+msgstr ""
+
+#: FactorException.php:28
+msgid "{{name}} must be a factor of {{dividend}}"
+msgstr ""
+
+#: FactorException.php:31
+msgid "{{name}} must not be a factor of {{dividend}}"
+msgstr ""
+
+#: FalseValException.php:27
+msgid "{{name}} is not considered as \"False\""
+msgstr ""
+
+#: FalseValException.php:30
+msgid "{{name}} is considered as \"False\""
+msgstr ""
+
+#: FibonacciException.php:28
+msgid "{{name}} must be a valid Fibonacci number"
+msgstr ""
+
+#: FibonacciException.php:31
+msgid "{{name}} must not be a valid Fibonacci number"
+msgstr ""
+
+#: FileException.php:27
+msgid "{{name}} must be a file"
+msgstr "{{name}} doit être un fichier"
+
+#: FileException.php:30
+msgid "{{name}} must not be a file"
+msgstr ""
+
+#: FiniteException.php:27
+msgid "{{name}} must be a finite number"
+msgstr ""
+
+#: FiniteException.php:30
+msgid "{{name}} must not be a finite number"
+msgstr ""
+
+#: FloatTypeException.php:29
+msgid "{{name}} must be of type float"
+msgstr "{{name}} doit être un nombre décimal"
+
+#: FloatTypeException.php:32
+msgid "{{name}} must not be of type float"
+msgstr ""
+
+#: FloatValException.php:28
+msgid "{{name}} must be a float number"
+msgstr ""
+
+#: FloatValException.php:31
+msgid "{{name}} must not be a float number"
+msgstr ""
+
+#: GraphException.php:28
+msgid "{{name}} must contain only graphical characters"
+msgstr ""
+
+#: GraphException.php:29
+msgid "{{name}} must contain only graphical characters and {{additionalChars}}"
+msgstr ""
+
+#: GraphException.php:32
+msgid "{{name}} must not contain graphical characters"
+msgstr ""
+
+#: GraphException.php:33
+msgid "{{name}} must not contain graphical characters or {{additionalChars}}"
+msgstr ""
+
+#: GreaterThanException.php:26
+msgid "{{name}} must be greater than {{compareTo}}"
+msgstr ""
+
+#: GreaterThanException.php:29
+msgid "{{name}} must not be greater than {{compareTo}}"
+msgstr ""
+
+#: GroupedValidationException.php:36
+msgid "None of there rules must pass for {{name}}"
+msgstr ""
+
+#: HexRgbColorException.php:27
+msgid "{{name}} must be a hex RGB color"
+msgstr ""
+
+#: HexRgbColorException.php:30
+msgid "{{name}} must not be a hex RGB color"
+msgstr ""
+
+#: IbanException.php:26
+msgid "{{name}} must be a valid IBAN"
+msgstr ""
+
+#: IbanException.php:29
+msgid "{{name}} must not be a valid IBAN"
+msgstr ""
+
+#: IdenticalException.php:26
+msgid "{{name}} must be identical as {{compareTo}}"
+msgstr ""
+
+#: IdenticalException.php:29
+msgid "{{name}} must not be identical as {{compareTo}}"
+msgstr ""
+
+#: ImageException.php:28
+msgid "{{name}} must be a valid image"
+msgstr ""
+
+#: ImageException.php:31
+msgid "{{name}} must not be a valid image"
+msgstr ""
+
+#: ImeiException.php:28
+msgid "{{name}} must be a valid IMEI"
+msgstr ""
+
+#: ImeiException.php:31
+msgid "{{name}} must not be a valid IMEI"
+msgstr ""
+
+#: InException.php:28
+msgid "{{name}} must be in {{haystack}}"
+msgstr ""
+
+#: InException.php:31
+msgid "{{name}} must not be in {{haystack}}"
+msgstr ""
+
+#: InfiniteException.php:27
+msgid "{{name}} must be an infinite number"
+msgstr ""
+
+#: InfiniteException.php:30
+msgid "{{name}} must not be an infinite number"
+msgstr ""
+
+#: InstanceException.php:28
+msgid "{{name}} must be an instance of {{instanceName}}"
+msgstr ""
+
+#: InstanceException.php:31
+msgid "{{name}} must not be an instance of {{instanceName}}"
+msgstr ""
+
+#: IntTypeException.php:28
+msgid "{{name}} must be of type integer"
+msgstr "{{name}} doit être un entier"
+
+#: IntTypeException.php:31
+msgid "{{name}} must not be of type integer"
+msgstr ""
+
+#: IntValException.php:28
+msgid "{{name}} must be an integer number"
+msgstr ""
+
+#: IntValException.php:31
+msgid "{{name}} must not be an integer number"
+msgstr ""
+
+#: IpException.php:31
+msgid "{{name}} must be an IP address"
+msgstr ""
+
+#: IpException.php:32
+msgid "{{name}} must be an IP address in the {{range}} range"
+msgstr ""
+
+#: IpException.php:35
+msgid "{{name}} must not be an IP address"
+msgstr ""
+
+#: IpException.php:36
+msgid "{{name}} must not be an IP address in the {{range}} range"
+msgstr ""
+
+#: IsbnException.php:27
+msgid "{{name}} must be a ISBN"
+msgstr ""
+
+#: IsbnException.php:30
+msgid "{{name}} must not be a ISBN"
+msgstr ""
+
+#: IterableTypeException.php:26
+msgid "{{name}} must be iterable"
+msgstr ""
+
+#: IterableTypeException.php:29
+msgid "{{name}} must not be iterable"
+msgstr ""
+
+#: JsonException.php:28
+msgid "{{name}} must be a valid JSON string"
+msgstr ""
+
+#: JsonException.php:31
+msgid "{{name}} must not be a valid JSON string"
+msgstr ""
+
+#: KeyException.php:33
+msgid "{{name}} must be present"
+msgstr "{{name}} doit être présent"
+
+#: KeyException.php:34 ValidationException.php:40
+msgid "{{name}} must be valid"
+msgstr "{{name}} doit être valide"
+
+#: KeyException.php:37
+msgid "{{name}} must not be present"
+msgstr ""
+
+#: KeyException.php:38 ValidationException.php:43
+msgid "{{name}} must not be valid"
+msgstr ""
+
+#: KeyNestedException.php:33
+msgid "No items were found for key chain {{name}}"
+msgstr ""
+
+#: KeyNestedException.php:34
+msgid "Key chain {{name}} is not valid"
+msgstr ""
+
+#: KeyNestedException.php:37
+msgid "Items for key chain {{name}} must not be present"
+msgstr ""
+
+#: KeyNestedException.php:38
+msgid "Key chain {{name}} must not be valid"
+msgstr ""
+
+#: KeySetException.php:32
+msgid "Must have keys {{keys}}"
+msgstr ""
+
+#: KeySetException.php:37
+msgid "Must not have keys {{keys}}"
+msgstr ""
+
+#: KeyValueException.php:28
+msgid "Key {{name}} must be present"
+msgstr ""
+
+#: KeyValueException.php:29
+msgid "{{baseKey}} must be valid to validate {{comparedKey}}"
+msgstr ""
+
+#: KeyValueException.php:32
+msgid "Key {{name}} must not be present"
+msgstr ""
+
+#: KeyValueException.php:33
+msgid "{{baseKey}} must not be valid to validate {{comparedKey}}"
+msgstr ""
+
+#: LanguageCodeException.php:28
+msgid "{{name}} must be a valid ISO 639 {{set}} language code"
+msgstr ""
+
+#: LanguageCodeException.php:31
+msgid "{{name}} must not be a valid ISO 639 {{set}} language code"
+msgstr ""
+
+#: LeapDateException.php:27
+msgid "{{name}} must be leap date"
+msgstr ""
+
+#: LeapDateException.php:30
+msgid "{{name}} must not be leap date"
+msgstr ""
+
+#: LeapYearException.php:27
+msgid "{{name}} must be a leap year"
+msgstr ""
+
+#: LeapYearException.php:30
+msgid "{{name}} must not be a leap year"
+msgstr ""
+
+#: LengthException.php:36
+msgid "{{name}} must have a length between {{minValue}} and {{maxValue}}"
+msgstr ""
+
+#: LengthException.php:37
+msgid "{{name}} must have a length greater than {{minValue}}"
+msgstr ""
+
+#: LengthException.php:38
+msgid "{{name}} must have a length greater than or equal to {{minValue}}"
+msgstr ""
+
+#: LengthException.php:39
+msgid "{{name}} must have a length lower than {{maxValue}}"
+msgstr ""
+
+#: LengthException.php:40
+msgid "{{name}} must have a length lower than or equal to {{maxValue}}"
+msgstr ""
+
+#: LengthException.php:41
+msgid "{{name}} must have a length of {{maxValue}}"
+msgstr ""
+
+#: LengthException.php:44
+msgid "{{name}} must not have a length between {{minValue}} and {{maxValue}}"
+msgstr ""
+
+#: LengthException.php:45
+msgid "{{name}} must not have a length greater than {{minValue}}"
+msgstr ""
+
+#: LengthException.php:46
+msgid "{{name}} must not have a length greater than or equal to {{minValue}}"
+msgstr ""
+
+#: LengthException.php:47
+msgid "{{name}} must not have a length lower than {{maxValue}}"
+msgstr ""
+
+#: LengthException.php:48
+msgid "{{name}} must not have a length lower than or equal to {{maxValue}}"
+msgstr ""
+
+#: LengthException.php:49
+msgid "{{name}} must not have a length of {{maxValue}}"
+msgstr ""
+
+#: LessThanException.php:26
+msgid "{{name}} must be less than {{compareTo}}"
+msgstr ""
+
+#: LessThanException.php:29
+msgid "{{name}} must not be less than {{compareTo}}"
+msgstr ""
+
+#: LowercaseException.php:28
+msgid "{{name}} must be lowercase"
+msgstr ""
+
+#: LowercaseException.php:31
+msgid "{{name}} must not be lowercase"
+msgstr ""
+
+#: LuhnException.php:28
+msgid "{{name}} must be a valid Luhn number"
+msgstr ""
+
+#: LuhnException.php:31
+msgid "{{name}} must not be a valid Luhn number"
+msgstr ""
+
+#: MacAddressException.php:28
+msgid "{{name}} must be a valid MAC address"
+msgstr ""
+
+#: MacAddressException.php:31
+msgid "{{name}} must not be a valid MAC address"
+msgstr ""
+
+#: MaxAgeException.php:27
+msgid "{{name}} must be {{age}} years or less"
+msgstr ""
+
+#: MaxAgeException.php:30
+msgid "{{name}} must not be {{age}} years or less"
+msgstr ""
+
+#: MaxException.php:28
+msgid "{{name}} must be less than or equal to {{compareTo}}"
+msgstr ""
+
+#: MaxException.php:31
+msgid "{{name}} must not be less than or equal to {{compareTo}}"
+msgstr ""
+
+#: MimetypeException.php:29
+msgid "{{name}} must have {{mimetype}} MIME type"
+msgstr ""
+
+#: MimetypeException.php:32
+msgid "{{name}} must not have {{mimetype}} MIME type"
+msgstr ""
+
+#: MinAgeException.php:28
+msgid "{{name}} must be {{age}} years or more"
+msgstr ""
+
+#: MinAgeException.php:31
+msgid "{{name}} must not be {{age}} years or more"
+msgstr ""
+
+#: MinException.php:29
+msgid "{{name}} must be greater than or equal to {{compareTo}}"
+msgstr "{{name}} doit être plus grand ou égal à {{compareTo}}"
+
+#: MinException.php:32
+msgid "{{name}} must not be greater than or equal to {{compareTo}}"
+msgstr ""
+
+#: MultipleException.php:28
+msgid "{{name}} must be multiple of {{multipleOf}}"
+msgstr ""
+
+#: MultipleException.php:31
+msgid "{{name}} must not be multiple of {{multipleOf}}"
+msgstr ""
+
+#: NegativeException.php:28
+msgid "{{name}} must be negative"
+msgstr ""
+
+#: NegativeException.php:31
+msgid "{{name}} must not be negative"
+msgstr ""
+
+#: NfeAccessKeyException.php:28
+msgid "{{name}} must be a valid NFe access key"
+msgstr ""
+
+#: NfeAccessKeyException.php:31
+msgid "{{name}} must not be a valid NFe access key"
+msgstr ""
+
+#: NifException.php:27
+msgid "{{name}} must be a NIF"
+msgstr ""
+
+#: NifException.php:30
+msgid "{{name}} must not be a NIF"
+msgstr ""
+
+#: NipException.php:27
+msgid "{{name}} must be a valid Polish VAT identification number"
+msgstr ""
+
+#: NipException.php:30
+msgid "{{name}} must not be a valid Polish VAT identification number"
+msgstr ""
+
+#: NoException.php:26
+msgid "{{name}} is not considered as \"No\""
+msgstr ""
+
+#: NoException.php:29
+msgid "{{name}} is considered as \"No\""
+msgstr ""
+
+#: NoneOfException.php:30
+msgid "All of these rules must pass for {{name}}"
+msgstr ""
+
+#: NotBlankException.php:29
+msgid "The value must not be blank"
+msgstr ""
+
+#: NotBlankException.php:30
+msgid "{{name}} must not be blank"
+msgstr ""
+
+#: NotBlankException.php:33
+msgid "The value must be blank"
+msgstr ""
+
+#: NotBlankException.php:34
+msgid "{{name}} must be blank"
+msgstr ""
+
+#: NotEmojiException.php:26
+msgid "{{name}} must not contain an Emoji"
+msgstr ""
+
+#: NotEmojiException.php:29
+msgid "{{name}} must contain an Emoji"
+msgstr ""
+
+#: NotEmptyException.php:30
+msgid "The value must not be empty"
+msgstr ""
+
+#: NotEmptyException.php:31
+msgid "{{name}} must not be empty"
+msgstr ""
+
+#: NotEmptyException.php:34
+msgid "The value must be empty"
+msgstr ""
+
+#: NotEmptyException.php:35
+msgid "{{name}} must be empty"
+msgstr ""
+
+#: NotOptionalException.php:29 OptionalException.php:32
+msgid "The value must not be optional"
+msgstr ""
+
+#: NotOptionalException.php:30 OptionalException.php:33
+msgid "{{name}} must not be optional"
+msgstr ""
+
+#: NotOptionalException.php:33 OptionalException.php:28
+msgid "The value must be optional"
+msgstr ""
+
+#: NotOptionalException.php:34 OptionalException.php:29
+msgid "{{name}} must be optional"
+msgstr ""
+
+#: NoWhitespaceException.php:28
+msgid "{{name}} must not contain whitespace"
+msgstr ""
+
+#: NoWhitespaceException.php:31
+msgid "{{name}} must contain whitespace"
+msgstr ""
+
+#: NullableException.php:29
+msgid "The value must be nullable"
+msgstr ""
+
+#: NullableException.php:30
+msgid "{{name}} must be nullable"
+msgstr ""
+
+#: NullableException.php:33
+msgid "The value must not be null"
+msgstr ""
+
+#: NullableException.php:34 NullTypeException.php:32
+msgid "{{name}} must not be null"
+msgstr ""
+
+#: NullTypeException.php:29
+msgid "{{name}} must be null"
+msgstr ""
+
+#: NumberException.php:28
+msgid "{{name}} must be a number"
+msgstr "{{name}} doit être un nombre"
+
+#: NumberException.php:31
+msgid "{{name}} must not be a number"
+msgstr ""
+
+#: NumericValException.php:28
+msgid "{{name}} must be numeric"
+msgstr ""
+
+#: NumericValException.php:31
+msgid "{{name}} must not be numeric"
+msgstr ""
+
+#: ObjectTypeException.php:29
+msgid "{{name}} must be of type object"
+msgstr ""
+
+#: ObjectTypeException.php:32
+msgid "{{name}} must not be of type object"
+msgstr ""
+
+#: OddException.php:28
+msgid "{{name}} must be an odd number"
+msgstr ""
+
+#: OddException.php:31
+msgid "{{name}} must not be an odd number"
+msgstr ""
+
+#: OneOfException.php:27
+msgid "Only one of these rules must pass for {{name}}"
+msgstr ""
+
+#: OneOfException.php:30
+msgid "Only one of these rules must not pass for {{name}}"
+msgstr ""
+
+#: PerfectSquareException.php:28
+msgid "{{name}} must be a valid perfect square"
+msgstr ""
+
+#: PerfectSquareException.php:31
+msgid "{{name}} must not be a valid perfect square"
+msgstr ""
+
+#: PeselException.php:28
+msgid "{{name}} must be a valid PESEL"
+msgstr ""
+
+#: PeselException.php:31
+msgid "{{name}} must not be a valid PESEL"
+msgstr ""
+
+#: PhoneException.php:28
+msgid "{{name}} must be a valid telephone number"
+msgstr ""
+
+#: PhoneException.php:31
+msgid "{{name}} must not be a valid telephone number"
+msgstr ""
+
+#: PhpLabelException.php:28
+msgid "{{name}} must be a valid PHP label"
+msgstr ""
+
+#: PhpLabelException.php:31
+msgid "{{name}} must not be a valid PHP label"
+msgstr ""
+
+#: PisException.php:28
+msgid "{{name}} must be a valid PIS number"
+msgstr ""
+
+#: PisException.php:31
+msgid "{{name}} must not be a valid PIS number"
+msgstr ""
+
+#: PolishIdCardException.php:26
+msgid "{{name}} must be a valid Polish Identity Card number"
+msgstr ""
+
+#: PolishIdCardException.php:29
+msgid "{{name}} must not be a valid Polish Identity Card number"
+msgstr ""
+
+#: PositiveException.php:28
+msgid "{{name}} must be positive"
+msgstr "{{name}} doit être une valeur positive"
+
+#: PositiveException.php:31
+msgid "{{name}} must not be positive"
+msgstr ""
+
+#: PostalCodeException.php:26
+msgid "{{name}} must be a valid postal code on {{countryCode}}"
+msgstr "{{name}} doit être un code postal valide du type {{countryCode}}"
+
+#: PostalCodeException.php:29
+msgid "{{name}} must not be a valid postal code on {{countryCode}}"
+msgstr ""
+
+#: PrimeNumberException.php:28
+msgid "{{name}} must be a valid prime number"
+msgstr ""
+
+#: PrimeNumberException.php:31
+msgid "{{name}} must not be a valid prime number"
+msgstr ""
+
+#: PrintableException.php:31
+msgid "{{name}} must contain only printable characters"
+msgstr ""
+
+#: PrintableException.php:32
+msgid "{{name}} must contain only printable characters and \"{{additionalChars}}\""
+msgstr ""
+
+#: PrintableException.php:35
+msgid "{{name}} must not contain printable characters"
+msgstr ""
+
+#: PrintableException.php:36
+msgid "{{name}} must not contain printable characters or \"{{additionalChars}}\""
+msgstr ""
+
+#: PunctException.php:28
+msgid "{{name}} must contain only punctuation characters"
+msgstr ""
+
+#: PunctException.php:29
+msgid "{{name}} must contain only punctuation characters and {{additionalChars}}"
+msgstr ""
+
+#: PunctException.php:32
+msgid "{{name}} must not contain punctuation characters"
+msgstr ""
+
+#: PunctException.php:33
+msgid "{{name}} must not contain punctuation characters or {{additionalChars}}"
+msgstr ""
+
+#: ReadableException.php:27
+msgid "{{name}} must be readable"
+msgstr ""
+
+#: ReadableException.php:30
+msgid "{{name}} must not be readable"
+msgstr ""
+
+#: RegexException.php:28
+msgid "{{name}} must validate against {{regex}}"
+msgstr ""
+
+#: RegexException.php:31
+msgid "{{name}} must not validate against {{regex}}"
+msgstr ""
+
+#: ResourceTypeException.php:28
+msgid "{{name}} must be a resource"
+msgstr ""
+
+#: ResourceTypeException.php:31
+msgid "{{name}} must not be a resource"
+msgstr ""
+
+#: RomanException.php:27
+msgid "{{name}} must be a valid Roman numeral"
+msgstr ""
+
+#: RomanException.php:30
+msgid "{{name}} must not be a valid Roman numeral"
+msgstr ""
+
+#: ScalarValException.php:26
+msgid "{{name}} must be a scalar value"
+msgstr ""
+
+#: ScalarValException.php:29
+msgid "{{name}} must not be a scalar value"
+msgstr ""
+
+#: SfException.php:27
+msgid "{{name}} must be valid for {{constraint}}"
+msgstr ""
+
+#: SfException.php:30
+msgid "{{name}} must not be valid for {{constraint}}"
+msgstr ""
+
+#: SizeException.php:32
+msgid "{{name}} must be between {{minSize}} and {{maxSize}}"
+msgstr ""
+
+#: SizeException.php:33
+msgid "{{name}} must be greater than {{minSize}}"
+msgstr ""
+
+#: SizeException.php:34
+msgid "{{name}} must be lower than {{maxSize}}"
+msgstr ""
+
+#: SizeException.php:37
+msgid "{{name}} must not be between {{minSize}} and {{maxSize}}"
+msgstr ""
+
+#: SizeException.php:38
+msgid "{{name}} must not be greater than {{minSize}}"
+msgstr ""
+
+#: SizeException.php:39
+msgid "{{name}} must not be lower than {{maxSize}}"
+msgstr ""
+
+#: SlugException.php:28
+msgid "{{name}} must be a valid slug"
+msgstr ""
+
+#: SlugException.php:31
+msgid "{{name}} must not be a valid slug"
+msgstr ""
+
+#: SortedException.php:32
+msgid "{{name}} must be sorted in ascending order"
+msgstr ""
+
+#: SortedException.php:33
+msgid "{{name}} must be sorted in descending order"
+msgstr ""
+
+#: SortedException.php:36
+msgid "{{name}} must not be sorted in ascending order"
+msgstr ""
+
+#: SortedException.php:37
+msgid "{{name}} must not be sorted in descending order"
+msgstr ""
+
+#: SpaceException.php:27
+msgid "{{name}} must contain only space characters"
+msgstr ""
+
+#: SpaceException.php:28
+msgid "{{name}} must contain only space characters and {{additionalChars}}"
+msgstr ""
+
+#: SpaceException.php:31
+msgid "{{name}} must not contain space characters"
+msgstr ""
+
+#: SpaceException.php:32
+msgid "{{name}} must not contain space characters or {{additionalChars}}"
+msgstr ""
+
+#: StartsWithException.php:27
+msgid "{{name}} must start with {{startValue}}"
+msgstr ""
+
+#: StartsWithException.php:30
+msgid "{{name}} must not start with {{startValue}}"
+msgstr ""
+
+#: StringTypeException.php:27
+msgid "{{name}} must be of type string"
+msgstr "{{name}} doit être une chaîne de caractères"
+
+#: StringTypeException.php:30
+msgid "{{name}} must not be of type string"
+msgstr ""
+
+#: StringValException.php:27
+msgid "{{name}} must be a string"
+msgstr ""
+
+#: StringValException.php:30
+msgid "{{name}} must not be string"
+msgstr ""
+
+#: SubdivisionCodeException.php:26
+msgid "{{name}} must be a subdivision code of {{countryName}}"
+msgstr ""
+
+#: SubdivisionCodeException.php:29
+msgid "{{name}} must not be a subdivision code of {{countryName}}"
+msgstr ""
+
+#: SubsetException.php:27
+msgid "{{name}} must be subset of {{superset}}"
+msgstr ""
+
+#: SubsetException.php:30
+msgid "{{name}} must not be subset of {{superset}}"
+msgstr ""
+
+#: SymbolicLinkException.php:27
+msgid "{{name}} must be a symbolic link"
+msgstr ""
+
+#: SymbolicLinkException.php:30
+msgid "{{name}} must not be a symbolic link"
+msgstr ""
+
+#: TimeException.php:26
+msgid "{{name}} must be a valid time in the format {{sample}}"
+msgstr ""
+
+#: TimeException.php:29
+msgid "{{name}} must not be a valid time in the format {{sample}}"
+msgstr ""
+
+#: TldException.php:31
+msgid "{{name}} must be a valid top-level domain name"
+msgstr ""
+
+#: TldException.php:34
+msgid "{{name}} must not be a valid top-level domain name"
+msgstr ""
+
+#: TrueValException.php:29
+msgid "{{name}} is not considered as \"True\""
+msgstr ""
+
+#: TrueValException.php:32
+msgid "{{name}} is considered as \"True\""
+msgstr ""
+
+#: TypeException.php:29
+msgid "{{name}} must be {{type}}"
+msgstr ""
+
+#: TypeException.php:32
+msgid "{{name}} must not be {{type}}"
+msgstr ""
+
+#: UniqueException.php:30
+msgid "{{name}} must not contain duplicates"
+msgstr ""
+
+#: UniqueException.php:33
+msgid "{{name}} must contain duplicates"
+msgstr ""
+
+#: UploadedException.php:30
+msgid "{{name}} must be an uploaded file"
+msgstr ""
+
+#: UploadedException.php:33
+msgid "{{name}} must not be an uploaded file"
+msgstr ""
+
+#: UppercaseException.php:28
+msgid "{{name}} must be uppercase"
+msgstr ""
+
+#: UppercaseException.php:31
+msgid "{{name}} must not be uppercase"
+msgstr ""
+
+#: UrlException.php:26
+msgid "{{name}} must be a URL"
+msgstr ""
+
+#: UrlException.php:29
+msgid "{{name}} must not be a URL"
+msgstr ""
+
+#: UuidException.php:30
+msgid "{{name}} must be a valid UUID"
+msgstr ""
+
+#: UuidException.php:31
+msgid "{{name}} must be a valid UUID version {{version}}"
+msgstr ""
+
+#: UuidException.php:34
+msgid "{{name}} must not be a valid UUID"
+msgstr ""
+
+#: UuidException.php:35
+msgid "{{name}} must not be a valid UUID version {{version}}"
+msgstr ""
+
+#: VersionException.php:27
+msgid "{{name}} must be a version"
+msgstr ""
+
+#: VersionException.php:30
+msgid "{{name}} must not be a version"
+msgstr ""
+
+#: VideoUrlException.php:30
+msgid "{{name}} must be a valid video URL"
+msgstr ""
+
+#: VideoUrlException.php:31
+msgid "{{name}} must be a valid {{service}} video URL"
+msgstr ""
+
+#: VideoUrlException.php:34
+msgid "{{name}} must not be a valid video URL"
+msgstr ""
+
+#: VideoUrlException.php:35
+msgid "{{name}} must not be a valid {{service}} video URL"
+msgstr ""
+
+#: VowelException.php:27
+msgid "{{name}} must contain only vowels"
+msgstr ""
+
+#: VowelException.php:28
+msgid "{{name}} must contain only vowels and {{additionalChars}}"
+msgstr ""
+
+#: VowelException.php:31
+msgid "{{name}} must not contain vowels"
+msgstr ""
+
+#: VowelException.php:32
+msgid "{{name}} must not contain vowels or {{additionalChars}}"
+msgstr ""
+
+#: WritableException.php:27
+msgid "{{name}} must be writable"
+msgstr ""
+
+#: WritableException.php:30
+msgid "{{name}} must not be writable"
+msgstr ""
+
+#: XdigitException.php:27
+msgid "{{name}} contain only hexadecimal digits"
+msgstr ""
+
+#: XdigitException.php:28
+msgid "{{name}} contain only hexadecimal digits and {{additionalChars}}"
+msgstr ""
+
+#: XdigitException.php:31
+msgid "{{name}} must not contain hexadecimal digits"
+msgstr ""
+
+#: XdigitException.php:32
+msgid "{{name}} must not contain hexadecimal digits or {{additionalChars}}"
+msgstr ""
+
+#: YesException.php:27
+msgid "{{name}} is not considered as \"Yes\""
+msgstr ""
+
+#: YesException.php:30
+msgid "{{name}} is considered as \"Yes\""
+msgstr ""
